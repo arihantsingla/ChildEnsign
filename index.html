@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <meta http-equiv="Access-Control-Allow-Methods">
+    <link rel="icon" href="./res/backgrounds/icon.png" type="image/png">
+    <title>Child Ensign</title>
+    <link defer rel="stylesheet" href="./styles.css">
+    <script type="text/javascript" src="./scripts/jQuery.js"></script>
+    <script type="text/javascript" src="./scripts/data.js"></script>
+    <script type="text/javascript">var initCfg={"description":"======== CWASA configuration data ========","jasBase":"http://vhg.cmp.uea.ac.uk/tech/jas/vhg2017/","jasVersionTag":"vhg2017","sigmlBase":"sigml","avJARBase":"avatars","avJSONBase":"avjson","useAvatarJARs":true,"animgenFPS":50,"animgenServer":"http://vhg.cmp.uea.ac.uk/cgi-bin/animgen/animgenserver.pl","avs":["anna","marc","francoise","luna"],"avsfull":["anna","beatrice","candy","darshan","francoise","genie","luna","marc","max","monkey","otis","robotboy","siggi"],"avSettings":[{"description":"Default if client configuration is missing or restricted","width":384,"height":320,"avList":"avs","initAv":"luna","initCamera":[0,0.23,3.24,0,18,31,-1,-1],"allowFrameSteps":true,"initSiGMLURL":"iTakeMug.sigml","allowSiGMLText":true}]}</script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<!-- Loader start -->
+<div class="loader"><svg id="loading"> <g> <path class="ld-l" fill="#39C0C4" d="M43.6,33.2h9.2V35H41.6V15.2h2V33.2z"/> <path class="ld-o" fill="#a00" d="M74.7,25.1c0,1.5-0.3,2.9-0.8,4.2c-0.5,1.3-1.2,2.4-2.2,3.3c-0.9,0.9-2,1.6-3.3,2.2 c-1.3,0.5-2.6,0.8-4.1,0.8s-2.8-0.3-4.1-0.8c-1.3-0.5-2.4-1.2-3.3-2.2s-1.6-2-2.2-3.3C54.3,28,54,26.6,54,25.1s0.3-2.9,0.8-4.2 c0.5-1.3,1.2-2.4,2.2-3.3s2-1.6,3.3-2.2c1.3-0.5,2.6-0.8,4.1-0.8s2.8,0.3,4.1,0.8c1.3,0.5,2.4,1.2,3.3,2.2c0.9,0.9,1.6,2,2.2,3.3 C74.4,22.2,74.7,23.6,74.7,25.1z M72.5,25.1c0-1.2-0.2-2.3-0.6-3.3c-0.4-1-0.9-2-1.6-2.8c-0.7-0.8-1.6-1.4-2.6-1.9 c-1-0.5-2.2-0.7-3.4-0.7c-1.3,0-2.4,0.2-3.4,0.7c-1,0.5-1.9,1.1-2.6,1.9c-0.7,0.8-1.3,1.7-1.6,2.8c-0.4,1-0.6,2.1-0.6,3.3 c0,1.2,0.2,2.3,0.6,3.3c0.4,1,0.9,2,1.6,2.7c0.7,0.8,1.6,1.4,2.6,1.9c1,0.5,2.2,0.7,3.4,0.7c1.3,0,2.4-0.2,3.4-0.7 c1-0.5,1.9-1.1,2.6-1.9c0.7-0.8,1.3-1.7,1.6-2.7C72.4,27.4,72.5,26.3,72.5,25.1z"/> <path class="ld-a" fill="#3C4" d="M78.2,35H76l8.6-19.8h2L95.1,35h-2.2l-2.2-5.2H80.4L78.2,35z M81.1,27.9h8.7l-4.4-10.5L81.1,27.9z"/> <path class="ld-d" fill="#39C0C4" d="M98,15.2h6.6c1.2,0,2.5,0.2,3.7,0.6c1.2,0.4,2.4,1,3.4,1.9c1,0.8,1.8,1.9,2.4,3.1s0.9,2.7,0.9,4.3 c0,1.7-0.3,3.1-0.9,4.3s-1.4,2.3-2.4,3.1c-1,0.8-2.1,1.5-3.4,1.9c-1.2,0.4-2.5,0.6-3.7,0.6H98V15.2z M100,33.2h4 c1.5,0,2.8-0.2,3.9-0.7c1.1-0.5,2-1.1,2.8-1.8c0.7-0.8,1.3-1.6,1.6-2.6s0.5-2,0.5-3c0-1-0.2-2-0.5-3c-0.4-1-0.9-1.8-1.6-2.6 c-0.7-0.8-1.6-1.4-2.8-1.8c-1.1-0.5-2.4-0.7-3.9-0.7h-4V33.2z"/> <path class="ld-i" fill="#9C4" d="M121.2,35h-2V15.2h2V35z"/> <path class="ld-n" fill="#39C" d="M140.5,32.1L140.5,32.1l0.1-16.9h2V35h-2.5l-11.5-17.1h-0.1V35h-2V15.2h2.5L140.5,32.1z"/> <path class="ld-g" fill="#14a" d="M162.9,18.8c-0.7-0.7-1.5-1.3-2.5-1.7c-1-0.4-2-0.6-3.3-0.6c-1.3,0-2.4,0.2-3.4,0.7s-1.9,1.1-2.6,1.9 c-0.7,0.8-1.3,1.7-1.6,2.8c-0.4,1-0.6,2.1-0.6,3.3c0,1.2,0.2,2.3,0.6,3.3c0.4,1,0.9,2,1.6,2.7c0.7,0.8,1.6,1.4,2.6,1.9 s2.2,0.7,3.4,0.7c1.1,0,2.1-0.1,3.1-0.4c0.9-0.2,1.7-0.5,2.3-0.9v-6h-4.6v-1.8h6.6v9c-1.1,0.7-2.2,1.1-3.5,1.5 c-1.3,0.3-2.5,0.5-3.9,0.5c-1.5,0-2.9-0.3-4.1-0.8s-2.4-1.2-3.3-2.2c-0.9-0.9-1.6-2-2.1-3.3s-0.8-2.7-0.8-4.2s0.3-2.9,0.8-4.2 c0.5-1.3,1.2-2.4,2.2-3.3c0.9-0.9,2-1.6,3.3-2.2c1.3-0.5,2.6-0.8,4.1-0.8c1.6,0,3,0.2,4.1,0.7s2.2,1.1,3,2L162.9,18.8z"/> </g> </svg></div>
+<!--     Loader-Ended -->
+
+    <div class="container">
+        <div id="upperContainer"></div>
+            <div id="imageWindow" >
+                <div id="prev-btn"><img src="./res/backgrounds/arrow.png" class="direction"></div>
+                <div id="next-btn"><img src="./res/backgrounds/arrow.png" class="direction"></div>
+                <img src="./res/backgrounds/arrow.png" class="cancel">
+                <div class="displayWindow" id="display" style="flex-direction:column;height: 41vw;">
+                </div>
+          </div>
+            <div id="lunaWindow"><div id="Prog_Alert"><p id="ProgElem" style="background: rgb(0,0,0,0.4);">Translating<br>Please Wait!</p></div>
+                <div style="display: flex;flex-direction: row;flex-wrap: wrap;height: 4vw;"> <img class="cancel" src="./res/backgrounds/cancel.svg"><img id="nameImage" src=""style="display: none"><div class="elemName" id="nameWindow"></div> <img id="reload-sigml" src="./res/backgrounds/reload.svg"></div>
+                <div class="CWASAAvatar av0 avtarwindow " align="center" id="avat" style="margin: 1vw 0 0 0;"></div> <!--Speed_Panel-->
+            <input type="text" class="txtGloss av0" value=""style="height: 3vw;border: none;">
+            <div class="spanSpeed av0"><p class="speedtxt">Speed :</p><input type="text" class="txtLogSpeed av0" value="+1.0" style="pointer-events: none;" disabled="true"><span class="bttnSpeedDown av0">-</span><span class="bttnSpeedUp av0">+</span><p class="bttnSpeedReset av0" style="margin: 0.4vw 0.5vw;padding: 0;width: 7vw;color: #000;">RESET SPEED</p></div>
+            </div>
+    </div>
+    <div id="footer">
+        <div id="inner-footer" class="row"></div>
+    </div>
+                <!--PoP-Up-->
+    <div class="bts-popup" role="alert"><div class="bts-popup-container"><a class="bts-popup-close cross" > <img src="./res/backgrounds/Close.png" style="width: 1.5vw;height: 1.5vw;"> </a><h1>Welcome to Child Ensign</h1><p class='popup-font'>A collaborative effort by following consortium of institutions</p><img src='./res/backgrounds/curin.png'><img src='./res/backgrounds/mrsptu.jpg'><img src='./res/backgrounds/manawala.png'><br><img style='width:13vw;' src='./res/backgrounds/hamburg.png'><img style='width:5.5vw;height:5.5vw;'src='./res/backgrounds/patialaSchool.png'><p style='font-weight:bold;' class='popup-font'>What is Child Ensign?</p><p class='popup-font' style='line-height:1.5vw;'>'Child Ensign' is an assistive pre-school learning resource for auditory impaired children aiming to build an automated system to learn sign language. This tool helps Divyagjan children (People with hearing disabilities) to practice the sign language in more precise way through step by step movement of hands for which sign genration is explained.</p><input type="button" value="OK" class="bts-popup-close"></div></div>  
+
+<!----------------------- Scripts ------------------------------->
+
+    <script src="./scripts/helper.js"></script>
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/lang.js"></script>
+    <script src="./scripts/allcsa.js"></script>
+</body>
+
+</html>
